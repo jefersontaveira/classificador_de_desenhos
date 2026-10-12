@@ -1,0 +1,55 @@
+# ==========================================
+# Ambientes Virtuais (Virtual Environments)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Bytecode e Cache do Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ==========================================
+# Dados e Datasets (Arquivos Grandes)
+# ==========================================
+data/*
+!data/.gitkeep
+*.npy
+*.npz
+
+# ==========================================
+# Modelos e Pesos de Redes Neurais (Binários)
+# ==========================================
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# ==========================================
+# Gradio & Logs
+# ==========================================
+flagged/
+*.log
+*.tmp
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Sistema Operacional e IDEs (Windows / Mac)
+# ==========================================
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
